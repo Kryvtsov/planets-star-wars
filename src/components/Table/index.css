@@ -1,0 +1,128 @@
+.tableFooter {
+    background-color: #1b192d;
+    padding: 8px 0;
+    width: 100%;
+    font-weight: 500;
+    text-align: left;
+    font-size: 16px;
+    color: #97a8e8;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 46px;
+}
+
+.button {
+    border: none;
+    padding: 7px 14px;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-right: 4px;
+    margin-left: 4px;
+}
+
+.activeButton {
+    color: #97a8e8;
+    background: #873d3d;
+    font-weight: bold;
+}
+
+.activeButton:hover {
+    cursor: auto;
+}
+
+.inactiveButton {
+    color: #97a8e8;
+    background: #142369;
+}
+
+.inactiveButton:hover {
+    padding: 9px 16px;
+    margin: -2px 2px;
+    background: #873d3d;
+}
+
+.tableContainer {
+    min-height: 465px;
+    position: relative;
+}
+
+.table {
+    border-collapse: collapse;
+    border: none;
+    width: 100%;
+}
+
+.tableRowHeader {
+    background-color: transparent;
+    transition: all 0.25s ease;
+    border-radius: 10px;
+}
+
+.tableHeader {
+    background-color: #1b192d;
+    padding: 12px;
+    font-weight: bold;
+    text-align: left;
+    font-size: 14px;
+    color: #97a8e8;
+    min-width: 150px;
+}
+
+.tableHeader:first-child {
+    border-top-left-radius: 15px;
+}
+
+.tableHeader:last-child {
+    border-top-right-radius: 15px;
+    text-align: center;
+}
+
+.tableHeader.sorting {
+    padding-bottom: 40px;
+}
+
+.tableInput, .tableSelect {
+    outline: transparent none;
+    min-width: 150px;
+    margin-top: 10px;
+    color: red;
+    opacity: 0.4;
+}
+
+.optionSelect {
+    opacity: 0.4;
+    background-color: #a56767;
+}
+
+.tableRowItems {
+    cursor: auto;
+}
+
+.tableRowItems:nth-child(odd) {
+    background-color: #3a37378c;
+}
+
+.tableCell {
+    padding: 12px;
+    font-size: 14px;
+    color: #873d3d;
+    min-height: 57px;
+}
+
+.tableCell:last-child {
+    text-align: center;
+}
+
+.sortButton:hover {
+    cursor: pointer;
+}
+
+.noData {
+    color: red;
+    position: absolute;
+    top: 50%;
+    left: 40%;
+}
